@@ -1,0 +1,27 @@
+{
+  "name": "unidrop-marketplace-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "UniDrop Marketplace - Campus Ecommerce Platform Frontend",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^6.6.0",
+    "@stripe/stripe-js": "^9.8.0",
+    "axios": "^1.7.7",
+    "lucide-react": "^1.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.7"
+  }
+}

@@ -1,0 +1,35 @@
+# UniDrop Marketplace — Root .gitignore
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output
+dist/
+build/
+
+# Uploads (user content)
+uploads/*
+!uploads/.gitkeep
+
+# Stripe CLI logs
+.stripe/
